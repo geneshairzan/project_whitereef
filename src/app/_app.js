@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import Context from "@context/app";
+import Context from "@/app/_component/context/app";
 // import useauth from "@context/reducer/useauth";
 // import useapp from "@context/reducer/useapp";
 // import ThemeProvider from "@context/theme";

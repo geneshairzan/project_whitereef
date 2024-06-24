@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import UI from "@gh/ui";
+import UI from "@/app/_component/gh/ui";
+import Icon from "@/app/_component/gh/icon";
 
 export default function Home() {
   return (
