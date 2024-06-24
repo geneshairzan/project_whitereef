@@ -2,9 +2,9 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "@component/*": ["src/app/_component/**"],
-      "@gh/*": ["src/app/_component/gh/*"],
-      "@context/*": ["src/app/_component/context/*"]
+      "@component/*": ["./src/app/_component/*"],
+      "@gh/*": ["./src/app/_component/gh/*"],
+      "@context/*": ["./src/app/_component/context/*"]
     }
   }
 }
