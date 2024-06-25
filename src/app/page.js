@@ -20,6 +20,7 @@ export default function Home() {
           width: "300px",
         }}
       />
+      <UI.Text variant="body1">GIP</UI.Text>
     </UI.Col>
   );
 }
