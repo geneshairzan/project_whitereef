@@ -4,6 +4,7 @@ import Image from "next/image";
 import UI from "@/app/_component/gh/ui";
 import Icon from "@/app/_component/gh/icon";
 import { Slider } from "./_slider";
+import Social from "./_social";
 
 export default function Home() {
   const [active, setactive] = useState(0);
@@ -30,6 +31,7 @@ export default function Home() {
         {active == 0 && <Slider.Additive />}
         {active == 1 && <Slider.Tester />}
       </UI.Col>
+      <Social />
     </UI.Col>
   );
 }

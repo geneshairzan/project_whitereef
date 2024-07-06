@@ -40,6 +40,7 @@ function Theming({ children }) {
         sx={{
           flexGrow: 1,
           overflow: "auto",
+          minHeight: 960,
           // maxWidth: 1280,
         }}
       >
