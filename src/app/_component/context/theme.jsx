@@ -5,15 +5,14 @@ import CssBaseline from "@mui/material/CssBaseline";
 export default function CustomStyles({ isDark, ...props }) {
   const color = {
     primary: {
-      main: "#1a7cbe",
+      main: "#3137c7",
       contrastText: "#fff",
-      light: "#9bcfff",
+      // dark: "#242893",
     },
 
     secondary: {
       main: "#FC6736",
       contrastText: "#fff",
-      light: "#ff9b5f",
     },
 
     pwhite: {
@@ -60,7 +59,7 @@ export default function CustomStyles({ isDark, ...props }) {
     },
     typography: {
       fontFamily: "Helvetica",
-      fontSize: 12,
+      fontSize: 14,
       // h1: {
       //   fontWeight: 600,
       //   fontSize: 72,
