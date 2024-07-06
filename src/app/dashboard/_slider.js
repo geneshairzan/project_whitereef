@@ -12,8 +12,8 @@ export const Slider = {
 
 const cardStyle = {
   maxWidth: "50%",
-  position: "absolute",
-  bottom: "0",
+  // position: "absolute",
+  // bottom: "0",
   p: 5,
   // color: "#e3e3e3",
 };
@@ -38,7 +38,14 @@ function Additive() {
           deleniti aperiam quisquam fuga, numquam accusantium necessitatibus, enim sit quibusdam nostrum itaque? Iure
           deserunt quasi deleniti enim?.
         </UI.Text>
-        <UI.Button LinkComponent={Link} href="/product/additive">
+        <UI.Button
+          LinkComponent={Link}
+          href="/product/additive"
+          sx={{
+            width: 160,
+            alignSelf: "flex-end",
+          }}
+        >
           Explore
         </UI.Button>
       </UI.Col>
@@ -66,7 +73,16 @@ function Tester() {
           deleniti aperiam quisquam fuga, numquam accusantium necessitatibus, enim sit quibusdam nostrum itaque? Iure
           deserunt quasi deleniti enim?
         </UI.Text>
-        <UI.Button>More</UI.Button>
+        <UI.Button
+          LinkComponent={Link}
+          href="#"
+          sx={{
+            width: 160,
+            alignSelf: "flex-end",
+          }}
+        >
+          Explore
+        </UI.Button>
       </UI.Col>
     </UI.Col>
   );

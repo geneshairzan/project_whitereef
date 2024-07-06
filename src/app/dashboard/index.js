@@ -19,8 +19,17 @@ export default function Home() {
       spacing={5}
     >
       <Menus active={active} setactive={setactive} />
-      {active == 0 && <Slider.Additive />}
-      {active == 1 && <Slider.Tester />}
+      <UI.Col
+        sx={{
+          position: "relative",
+          // pt: "90px",
+          // zIndex: -1,
+          // bgcolor: "red",
+        }}
+      >
+        {active == 0 && <Slider.Additive />}
+        {active == 1 && <Slider.Tester />}
+      </UI.Col>
     </UI.Col>
   );
 }
@@ -28,13 +37,12 @@ export default function Home() {
 function Menus({ active, setactive }) {
   return (
     <UI.Row
-      p={2}
       spacing={3}
       sx={{
         p: 2,
-        position: "absolute",
-        top: 0,
-        left: 0,
+        // position: "absolute",
+        // top: 0,
+        // left: 0,
         alignItems: "center",
       }}
     >
