@@ -20,6 +20,7 @@ function KH() {
       sx={{
         flexGrow: 1,
         height: "100%",
+        position: "relative",
       }}
     >
       <UI.Col sx={cardStyle.card}>
@@ -66,6 +67,30 @@ function KH() {
           Please dont dose this additive before you measure water paramater, since you might not need this product
           anyway. :)
         </UI.Text>
+
+        <UI.Col
+          sx={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            width: "100vw",
+            height: "100%",
+            // zIndex: -1,
+            // bgcolor: "red",
+          }}
+        >
+          <img
+            src="/asset/kh.webp"
+            alt=""
+            style={{
+              objectFit: "contain",
+              height: "100%",
+              position: "absolute",
+              top: 0,
+              left: "70%",
+            }}
+          />
+        </UI.Col>
       </UI.Col>
     </UI.Col>
   );

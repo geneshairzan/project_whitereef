@@ -8,6 +8,7 @@ export default function CustomStyles({ isDark, ...props }) {
       main: "#3137c7",
       contrastText: "#fff",
       // dark: "#242893",
+      logodark: "#191d26",
     },
 
     secondary: {

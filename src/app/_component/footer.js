@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 
-import Image from "next/image";
 import UI from "@/app/_component/gh/ui";
-import Icon from "@/app/_component/gh/icon";
-import { Slider } from "./_slider";
 
 export default function Social() {
   return (
@@ -13,6 +10,7 @@ export default function Social() {
         bottom: 0,
         p: 5,
         zIndex: 5,
+        width: "100vw",
         bgcolor: "primary.logodark",
       }}
       spacing={5}

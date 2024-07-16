@@ -12,9 +12,10 @@ export const Slider = {
 
 const cardStyle = {
   maxWidth: "50%",
+  // pl: 5,
+  p: 5,
   // position: "absolute",
   // bottom: "0",
-  p: 5,
   // color: "#e3e3e3",
 };
 
@@ -22,14 +23,35 @@ function Additive() {
   return (
     <UI.Col
       sx={{
+        position: "relative",
         flexGrow: 1,
-        height: "100%",
-        // bgcolor: "#191d26",
       }}
       spacing={5}
     >
+      <UI.Col
+        sx={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100%",
+          zIndex: -1,
+        }}
+      >
+        <img
+          src="/asset/additive.webp"
+          alt=""
+          style={{
+            objectFit: "cover",
+            height: "100%",
+            // position: "absolute",
+            objectPosition: "bottom",
+          }}
+        />
+      </UI.Col>
+
       <UI.Col sx={cardStyle} spacing={2}>
-        <UI.Text variant="h2" bold>
+        <UI.Text variant="h2" bold color="primary.dark">
           White Reef <br /> Additive
         </UI.Text>
 
